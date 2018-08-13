@@ -19,6 +19,7 @@ urlpatterns = [
     # Examples:
     url(r'^$', HelloDjangoApp.views.index, name='index'),
     url(r'^home$', HelloDjangoApp.views.index, name='home'),
+    url(r'^about$', HelloDjangoApp.views.about, name='about')
     #url(r'^contact$', app.views.contact, name='contact'),
     #url(r'^about', app.views.about, name='about'),
     #url(r'^login/$',
